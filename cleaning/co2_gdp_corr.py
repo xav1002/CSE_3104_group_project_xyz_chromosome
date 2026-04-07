@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-gdp = pd.read_csv("gdp_pcap.csv")
-co2 = pd.read_csv("co2_pcap_cons.csv")
+gdp = pd.read_csv("CSE_3104_group_project_xyz_chromosome/data/gdp_pcap.csv")
+co2 = pd.read_csv("CSE_3104_group_project_xyz_chromosome/data/co2_pcap_cons.csv")
 gdp_long = gdp.melt(
     id_vars=["geo","name"],
     var_name="year",
